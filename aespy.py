@@ -6,7 +6,7 @@ from Cryptodome.Cipher import AES
 
 def main():
   if sys.argv[1] == "help":
-        print("usage: aespy.py file_name key skey_file_name")
+        print("usage: encrypt file_name key skey_file_name")
   else:
     filem = open(sys.argv[1], "rb+")
     inside = filem.read()

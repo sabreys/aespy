@@ -5,7 +5,7 @@ from Cryptodome.Cipher import AES
 
 def main():
     if sys.argv[1] == "help":
-        print("usage: deaes.py file_name key skey.bin_path")
+        print("usage: decrypt file_name key skey.bin_path")
     else:
         file = open(sys.argv[1], "rb+")
 
